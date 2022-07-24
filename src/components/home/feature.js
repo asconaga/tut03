@@ -27,7 +27,7 @@ const AppFeature = () => {
         },
         {
             key: '4',
-            title: 'Easy to customise',
+            title: 'Nice and sleepy',
         },
         {
             key: '5',
@@ -40,12 +40,12 @@ const AppFeature = () => {
     ]        
 
     return (
-    <div id="feature" className="block featureBlock bgGray">
-        <div className="container-fluid">
-        <div className="titleHolder">
-          <h2>Key Features and Benefits</h2>
-          <p>Obcaecati consequatur libero repudiandae, aperiam itaque laborum!</p>
-            </div>
+        <div id="feature" className="block contactBlock bgGray">
+            <div className="container-fluid">
+                <div className="titleHolder">
+                    <h2>Features</h2>
+                    <p>Obcaecati consequatur libero repudiandae, aperiam itaque laborum!</p>
+                </div>
                 <Row gutter={[16, 16]}>
                     {items.map(item => {
                         return (

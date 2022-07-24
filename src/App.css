@@ -1,7 +1,4 @@
-/* 
-general 
--------
-*/
+/* --- general --- */
 body {
   font-size: 16px;
   line-height: 1.6;
@@ -24,7 +21,7 @@ body {
   padding: 0;
   height: auto;
   line-height: 1.6;
-}
+} 
 
 p {
   font-size: 16px;
@@ -32,13 +29,11 @@ p {
 }
 
 .bgGray {
-  background: #fafafa;
+  background: rgb(219, 233, 238);
 }
 
-/* 
-title holder
-------------
-*/
+/* --- title holder --- */
+
 .titleHolder {
   text-align: center;
   position: relative;
@@ -62,10 +57,8 @@ title holder
   margin: 0;
 }
 
-/* 
-header
------- 
-*/
+/* --- header --- */
+
 .ant-layout-header {
   position: fixed;
   left: 0;
@@ -145,7 +138,8 @@ header
   opacity: 1;
 }
 
-/* ant menu */
+/* --- ant menu --- */
+
 .header .ant-menu {
   border: 0;
   background: none !important;
@@ -197,10 +191,8 @@ header
   opacity: 1;
 }
 
-/* 
-hero
----- 
-*/
+/* --- hero --- */
+
 .heroBlock {
   background: url('assets/images/bg-hero.jpg') no-repeat;
   background-position: 50% 100%;
@@ -253,19 +245,14 @@ hero
   margin: 0 10px 0 0;
 }
 
-/* 
-block
------ 
-*/
+/* --- block --- */
 .block {
   padding: 60px 0;
   border-bottom: 1px solid #d9d9d9;
 }
 
-/* 
-about
------ 
-*/
+/* --- about --- */
+
 .aboutBlock .contentHolder {
   text-align: justify;
   margin: 0 0 50px;
@@ -281,10 +268,8 @@ about
   text-align: center;
 }
 
-/* 
-how it works
-------------
-*/
+/* --- how it works --- */
+
 .worksBlock {
   background: url('assets/images/bg-works.jpg') no-repeat;
   background-position: 50% 0;
@@ -329,12 +314,14 @@ how it works
   height: 110px;
 }
 
-/* 
-faqs
-----
-*/
+/* --- faq --- */
+
 .faqBlock .ant-collapse {
   margin: 0 0 40px;
+}
+
+.faqBlock .ant-collapse-content-box p {
+  margin: 0;
 }
 
 .faqBlock .quickSupport {
@@ -343,14 +330,12 @@ faqs
   margin: auto;
 }
 
-.faqBlock .fas {
+.faqBlock svg {
   margin: 0 10px 0 0;
 }
 
-/* 
-pricing block
--------------
-*/
+/* --- pricing block --- */
+
 .pricingBlock .ant-list {
   text-align: center;
 }
@@ -365,7 +350,7 @@ pricing block
 .pricingBlock .ant-card-head-title {
   text-transform: uppercase;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .pricingBlock .large {
@@ -374,14 +359,12 @@ pricing block
   margin: 0 0 20px;
 }
 
-.pricingBlock .fab {
+.pricingBlock svg {
   margin: 0 10px 0 0;
 }
 
-/* 
-contact
--------
-*/
+/* --- contact --- */
+
 .contactBlock .ant-form {
   max-width: 640px;
   margin: auto;
@@ -392,10 +375,8 @@ contact
   height: 120px;
 }
 
-/* 
-footer
-------
-*/
+/* --- footer --- */
+
 .ant-layout-footer {
   background: #111 !important;
   color: #fff !important;
@@ -406,17 +387,18 @@ footer
 .footer .logo {
   font-size: 22px;
   text-transform: uppercase;
-  margin: 0 0 20px;
+  margin: 0 0 10px;
 }
 
-.footer .fas {
+.footer svg {
   color: #1890ff;
   font-size: 28px;
-  margin: 0 5px 0 0;
+  margin: 5px 5px 0 0;
 }
 
-.footer .logo a {
+.footer .logo a, .footer h2 {
   color: #fff;
+  font-style: italic;
 }
 
 .footer .socials {
@@ -452,10 +434,8 @@ footer
   display: block;
 }
 
-/* 
-responsive
-----------
-*/
+/* --- responsive --- */
+
 @media only screen and (max-width: 991px) {
   .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
     transform: scale(1.14);

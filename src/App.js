@@ -1,13 +1,15 @@
 
 import React from 'react';
-import AppHeader from './components/common/header';
 
+import './App.css';
 import { Layout } from 'antd';
 import 'antd/dist/antd.min.css'
-import './App.css';
-import AppHome from './views/home';
 
-const { Header, Content} = Layout;
+import AppHome from './views/home';
+import AppHeader from './components/common/header';
+import AppFooter from './components/common/footer';
+
+const { Header, Content, Footer} = Layout;
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
       <Content>
         <AppHome/>
       </Content>
+      <Footer>
+        <AppFooter/>
+      </Footer>
     </Layout>
   );
 }
