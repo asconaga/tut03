@@ -241,6 +241,7 @@ hero
 
 .heroBlock p {
   margin: 0 0 30px;
+  text-align: justify;  
 }
 
 .heroBlock .btnHolder {
@@ -248,7 +249,7 @@ hero
 }
 
 .heroBlock .btnHolder button,
-.heroBlock .btnHolder .fas {
+.heroBlock .btnHolder svg {
   margin: 0 10px 0 0;
 }
 
@@ -266,7 +267,7 @@ about
 ----- 
 */
 .aboutBlock .contentHolder {
-  text-align: center;
+  text-align: justify;
   margin: 0 0 50px;
 }
 
@@ -309,6 +310,11 @@ how it works
 
 .worksBlock .contentHolder {
   text-align: center;
+}
+
+.ant-card-meta   {
+
+  justify-content: center;
 }
 
 .worksBlock .contentHolder button {
