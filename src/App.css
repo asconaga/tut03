@@ -451,17 +451,13 @@ p {
 
 /* --- responsive --- */
 
-/* @media only screen and (max-width: 991px) {
+@media only screen and (max-width: 568px) {
   .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
-    transform: scale(1.14);
+    transform: scale(1);
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
-    transform: scale(1);
-  }
-
   .mobileVisible {
     display: block;
   }
@@ -469,4 +465,4 @@ p {
   .mobileHidden {
     display: none;
   }
-} */
+}

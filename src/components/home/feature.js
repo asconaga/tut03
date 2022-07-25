@@ -49,7 +49,7 @@ const AppFeature = () => {
                 <Row gutter={[16, 16]}>
                     {items.map(item => {
                         return (
-                        <Col md={{ span: 8 }} key={item.key}>
+                        <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} key={item.key}>
                             <Card hoverable cover={<img alt={item.title} src={arrImages[parseInt(item.key) - 1]} />} >
                                 <Meta title={item.title} />   
                             </Card>
