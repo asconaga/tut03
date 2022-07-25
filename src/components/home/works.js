@@ -29,7 +29,7 @@ const AppWorks = () => {
             <div className="contentHolder">
                 <Button size="large" onClick={showModal}><FaPlayCircle/></Button>
             </div>
-            <Modal destroyOnClose={true}  footer={null} title="ECommerce Tutorial" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>
+            <Modal destroyOnClose={true} footer={null} title="ECommerce Tutorial" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>
             <iframe width="100%" height="350" src="https://www.youtube.com/embed/dJRsWJqDjFE?autoplay=1&mute=1&start=66" title="ECommerce Tutorial"></iframe>
             </Modal>            
         </div>

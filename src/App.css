@@ -375,6 +375,21 @@ p {
   height: 120px;
 }
 
+/* --- features --- */
+
+.featureBlock .ant-form {
+  max-width: 640px;
+  margin: auto;
+}
+
+.featureBlock .ant-card-hoverable {
+  transition: 0.3s ease ; 
+} 
+
+.featureBlock .ant-card-hoverable:hover {
+  transform: scale(1.05);
+}
+
 /* --- footer --- */
 
 .ant-layout-footer {
@@ -392,7 +407,7 @@ p {
 
 .footer svg {
   color: #1890ff;
-  font-size: 28px;
+  font-size: 30px;
   margin: 5px 5px 0 0;
 }
 
@@ -436,7 +451,7 @@ p {
 
 /* --- responsive --- */
 
-@media only screen and (max-width: 991px) {
+/* @media only screen and (max-width: 991px) {
   .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
     transform: scale(1.14);
   }
@@ -454,4 +469,4 @@ p {
   .mobileHidden {
     display: none;
   }
-}
+} */

@@ -7,7 +7,7 @@ import AppHero from '../components/home/hero'
 import AppPricing from '../components/home/pricing'
 import AppWorks from '../components/home/works'
 
-const AppHome = () => {
+const ViewHome = () => {
   return (
     <div>
       <div className="main">
@@ -23,4 +23,4 @@ const AppHome = () => {
   )
 }
 
-export default AppHome
+export default ViewHome

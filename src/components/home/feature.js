@@ -40,7 +40,7 @@ const AppFeature = () => {
     ]        
 
     return (
-        <div id="feature" className="block contactBlock bgGray">
+        <div id="feature" className="block featureBlock bgGray">
             <div className="container-fluid">
                 <div className="titleHolder">
                     <h2>Features</h2>

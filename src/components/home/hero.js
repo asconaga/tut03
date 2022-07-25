@@ -1,6 +1,8 @@
 import React from 'react'
-import { Button, Carousel } from 'antd'
+import { useState } from 'react';
+import { Button, Carousel, Modal } from 'antd'
 import { FaDesktop } from 'react-icons/fa'
+
 
 const items = [
     {
@@ -21,6 +23,20 @@ const items = [
   ]
 
 const AppHero = () => {
+  const [isModalVisible, setIsModalVisible] = useState(false);
+
+  const showModal = () => {
+    setIsModalVisible(true);
+  };
+
+  const handleOk = () => {
+    setIsModalVisible(false);
+  };
+
+  const handleCancel = () => {
+    setIsModalVisible(false);
+  }; 
+
   return (
     <div id="hero" className='heroBlock'>
       <Carousel>
@@ -34,7 +50,11 @@ const AppHero = () => {
                   <Button type="primary" size="large">Learn More</Button>
                   <Button size="large"><FaDesktop/> Watch a Demo</Button>
                 </div>
+   
               </div>
+              {/* <Modal destroyOnClose={true} footer={null} title="ECommerce Tutorial" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel} >
+                  <iframe width="100%" height="350" src="https://www.youtube.com/embed/dJRsWJqDjFE?autoplay=1&mute=1&start=66" title="ECommerce Tutorial"></iframe>
+                </Modal>                */}
             </div>  
           );
         })}
