@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tut03/static/css/main.c88c2d96.css",
-    "main.js": "/tut03/static/js/main.159d56b8.js",
+    "main.css": "/tut03/static/css/main.c970e46d.css",
+    "main.js": "/tut03/static/js/main.8b5034b2.js",
     "static/media/bg-hero.jpg": "/tut03/static/media/bg-hero.38a56ed2f50fa6bb4115.jpg",
     "static/media/bg-works.jpg": "/tut03/static/media/bg-works.0501dc535ab7f79355a9.jpg",
     "static/media/great-support.jpg": "/tut03/static/media/great-support.13341f4e93333e45ebbe.jpg",
@@ -11,11 +11,11 @@
     "static/media/unlimited-features.jpg": "/tut03/static/media/unlimited-features.a0b8acf77e6b57772078.jpg",
     "static/media/easy-customise.jpg": "/tut03/static/media/easy-customise.9c0325d59897bf452747.jpg",
     "index.html": "/tut03/index.html",
-    "main.c88c2d96.css.map": "/tut03/static/css/main.c88c2d96.css.map",
-    "main.159d56b8.js.map": "/tut03/static/js/main.159d56b8.js.map"
+    "main.c970e46d.css.map": "/tut03/static/css/main.c970e46d.css.map",
+    "main.8b5034b2.js.map": "/tut03/static/js/main.8b5034b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.c88c2d96.css",
-    "static/js/main.159d56b8.js"
+    "static/css/main.c970e46d.css",
+    "static/js/main.8b5034b2.js"
   ]
 }
