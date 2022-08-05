@@ -73,6 +73,17 @@ p {
   padding: 15px 0;
 }
 
+.progress{
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  left: 0px; 
+  height: 3px;
+  background: #1890ff;
+  transition: width 0.75s ease 0s;
+}
+
 .header .logo {
   font-size: 22px;
   text-transform: uppercase;
@@ -82,8 +93,11 @@ p {
 
 .header .logo svg {
   color: #1890ff;
-  margin: 0 5px 0 0;
   font-size: 20px;
+}
+
+.headerName {
+  margin: 0px 4px 0px 4px;
 }
 
 .header .logo a {
